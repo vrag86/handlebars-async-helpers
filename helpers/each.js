@@ -102,7 +102,6 @@ module.exports = (handlebars) => {
     }
 
     if (i === 0) {
-      ret = inverse(this)
       ret = [inverse(this)]
     }
 
